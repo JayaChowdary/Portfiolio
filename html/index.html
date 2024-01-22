@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Virtual Folio - Portfolio HTML5 Template</title>
+
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+  <style>
+    .btn-fab {
+      width: 40px; /* Adjust the width and height based on your design */
+      height: 40px;
+      border-radius: 50%; /* Make it a perfect circle */
+      overflow: hidden; /* Ensure the image doesn't overflow the button */
+    }
+  
+    .btn-fab img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain the aspect ratio and cover the entire space */
+    }
+  </style>
+</head>
+<body class="theme-red">
+  
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <!-- Setting button -->
+  <div class="config">
+    
+    <div class="set-menu">
+      <p>Select Color</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+        <span class="color-item bg-theme-green" data-class="theme-green"></span>
+        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+      </div>
+      <select class="custom-select d-block my-2" id="change-page">
+        <option value="">Choose Page</option>
+        <option value="index">Topbar</option>
+        <option value="blog-topbar">Blog (Topbar)</option>
+        <option value="index-2">Minibar</option>
+        <option value="blog-minibar">Blog (Minibar)</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <!-- <a href="" class="navbar-brand">V-Folio</a> -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link" data-animate="scrolling">Experience</a>
+            </li> 
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
+            </li>
+          </ul>
+          <ul class="nav ml-auto">
+            <li class="nav-item">
+              <button class="btn btn-fab btn-theme no-shadow"> 
+               <span style="text-align: center;">J</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal">Welcome</h5>
+      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Jaya</b> Medikonda</h1>
+      <div class="badge">Full Stack Java Developer</div>
+    </div> <!-- End Caption header -->
+    <div class="floating-button"><span class="ti-mouse"></span></div>
+  </div>
+  
+  <div class="vg-page page-about" id="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="img-place wow fadeInUp">
+            <img src="../assets/img/profile1.jfif" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+          <h1 class="fw-light">Jaya Medikonda</h1>
+          <h5 class="fg-theme mb-3">Full Stack Java Developer</h5>
+          <p class="text-muted">A full-stack Java developer excels in both front-end and back-end development using Java technologies, proficient in creating comprehensive and scalable solutions for web applications. They leverage frameworks like Spring for server-side logic and Java-based tools for effective client-side development./p>
+          <ul class="theme-list">
+            <li><b>From:</b> Texas, US</li>
+            <li><b>Lives In:</b> Texas, US</li>
+            <li><b>Age:</b> 25</li>
+            <li><b>Gender:</b> Female</li>
+          </ul>
+          <a href="Jaya_Medikonda_Resume.docx" target="_blank" class="btn btn-theme-outline">Download Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5" id="portfolio">
+      <h1 class="text-center fw-normal wow fadeIn" >My Skills</h1>
+      <div class="row py-3">
+        <div class="col-md-3">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Programming Languages</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Java</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Python</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+            </div>
+            <!-- <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Phyton</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Frameworks</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Spring, Spring Boot</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Spring Restful API</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Spring Data JPA</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Spring Microservices</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">ReactJS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Angular</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">DBMS Skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">MYSQL</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">PostGreSQL</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">MongoDB</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Deployment Tools</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Docker</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Kubernates</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">CI/CD PipeLines(Jenkins)</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">79%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">AWS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">79%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container pt-5" id="blog">
+      <div class="row">
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal">Education</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2023</div>
+              <div class="details">
+                <h5>Applied Computer Sceince</h5>
+                <small class="fg-theme">Northwest Missouri State University</small>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+          <h2 class="fw-normal">Experience</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2022 - Current</div>
+              <div class="details">
+                <h5>Senior Java Fullstack Developer</h5>
+                <small class="fg-theme">TheHartFord</small>
+                <h6>Innovative Solutions:</h6>
+  <p>Engineered dynamic full stack Java applications, leveraging Java 8, Spring, Hibernate, and microservices architecture for robust backend functionality.</p>
+
+  <h6>Frontend Excellence:</h6>
+  <p>Drove the development of Single Page Applications (SPA) using ReactJS, AngularJS, HTML5/CSS3, enhancing user interfaces and elevating the overall user experience.</p>
+
+  <h6>Cloud & DevOps Proficiency:</h6>
+  <p>Orchestrated microservices deployment on AWS EC2 and Pivotal Cloud Foundry (PCF), employing Docker, Kubernetes, and VSTS for streamlined CI/CD pipelines.</p>
+
+  <h6>Technological Expertise:</h6>
+  <p>Demonstrated versatility across a diverse tech stack, from Java Swing for GUI development to Golang for legacy API migration. Proficient in tools like Prometheus, Grafana, and Apigee.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021</div>
+              <div class="details">
+                <h5>Advantech</h5>
+                <small class="fg-theme">Full-Stack Java Developer</small>
+                <h6>Full-Stack Expertise:</h6>
+    <p>Designed and developed robust integration, business, and service layers using Java, Spring Boot, and microservices architecture, meeting diverse business requirements.</p>
+
+    <h6>Frontend Mastery:</h6>
+    <p>Spearheaded the development of Single Page Applications (SPA) with technologies like ReactJS, AngularJS, HTML5/CSS3, and TypeScript, enhancing user interfaces and experience.</p>
+
+    <h6>Cloud & DevOps Proficiency:</h6>
+    <p>Implemented microservices architecture with Spring Boot, orchestrated deployments on AWS EC2 and Pivotal Cloud Foundry, and streamlined CI/CD pipelines using Docker, Kubernetes, GitLab, and Jenkins.</p>
+
+    <h6>Technology Stack:</h6>
+    <p>Demonstrated versatility across a wide tech stack, including Java 8, J2EE, HTML/HTML5, CSS/CSS3, Ajax, Spring, Hibernate, Web Services (SOAP), JavaScript, Angular 2, AngularJS, Bootstrap, and Amazon Web Services (AWS).</p>
+
+              </div>
+            </li>
+            <li>
+              <div class="title">2019</div>
+              <div class="details">
+                <h5>Java Full Stack Developer</h5>
+                <small class="fg-theme">AGFA HealthCar</small>
+                <h6>Frontend Development:</h6>
+                <p>Developed responsive presentation layer code using HTML, CSS, AJAX, and jQuery.</p>
+            
+                <h6>Microservices and Automation:</h6>
+                <p>Designed REST-based Microservices with Spring Boot and implemented a Page Object Model automation framework.</p>
+            
+                <h6>J2EE and Database Operations:</h6>
+                <p>Utilized J2EE for business object coding, including JMS for asynchronous communication and Cassandra for database operations.</p>
+            
+                <h6>Framework Integration and Automation:</h6>
+                <p>Integrated design patterns, resolved Gradle issues for backend Microservices, and implemented Postgres clusters.</p>
+            
+              </div>
+            </li>
+            <li>
+              <div class="title">2018</div>
+              <div class="details">
+                <h5>Java Developer</h5>
+                <small class="fg-theme">Giant Eagle</small>
+                <h6>Frontend Development:</h6>
+    <p>Designed and developed J2EE web-based consumer applications using Spring, DHTML, and Ajax. Developed UI screens using HTML, CSS, JSP, and JavaScript.</p>
+
+    <h6>Microservices and AngularJS:</h6>
+    <p>Architected and implemented a Single Page Application (SPA) in AngularJS consuming JSON from a Spring MVC. Utilized microservices architecture with Spring Boot, REST, and Apache Kafka.</p>
+
+    <h6>MuleSoft Integration:</h6>
+    <p>Integrated Mule ESB system with Active MQ, Http, File system, and SFTP transports. Developed mediation flows using MuleSoft Anypoint Studio.</p>
+
+    <h6>Database and Cloud Technologies:</h6>
+    <p>Worked on TSQL programming, MongoDB concepts, and supported applications in the DTCC RISK engine. Utilized Google Cloud services, Oracle, and Azure technologies.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2017</div>
+              <div class="details">
+                <h5>Java Software Developer</h5>
+                <small class="fg-theme">Innoplexus</small>
+                <h6>User Interface Development:</h6>
+    <p>Developed interfaces using HTML5, CSS3, SAAS, JSON, AJAX, and Node JS. Utilized Bootstrap for web development.</p>
+
+    <h6>Web Design and Maintenance:</h6>
+    <p>Designed and maintained websites, implemented DAO layer using Spring and Hibernate, and developed business logic and reports. Provided support for application implementation and troubleshooting on Linux/UNIX servers.</p>
+
+    <h6>Angular and Spring Development:</h6>
+    <p>Developed single-page applications and custom directives with Angular 2.0. Implemented OAuth 2, developed Spring Boot adapter applications with RESTful services, and integrated Spring with Hibernate and Cassandra for data access.</p>
+
+    <h6>Apache Kafka and Continuous Deployment:</h6>
+    <p>Utilized Apache Kafka for data exchange, implemented continuous deployment with Jenkins, and version controlled using GIT. Employed MAVEN for project building and documentation.</p>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-contact" id="contact">
+    <div class="container-fluid">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Contact</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+      <div class="row py-5">
+        <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
+          <div class="vg-maps">
+            <div id="google-maps" style="width: 100%; height: 100%;"></div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <form class="vg-contact-form">
+            <div class="form-row">
+              <div class="col-12 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Name" placeholder="Your Name">
+              </div>
+              <div class="col-6 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Email" placeholder="Email Address">
+              </div>
+              <div class="col-6 mt-3 wow fadeInUp">
+                <input class="form-control" type="text" name="Subject" placeholder="Subject">
+              </div>
+              <div class="col-12 mt-3 wow fadeInUp">
+                <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
+              </div>
+              <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Contact -->
+  
+  
+  
+  <!-- Footer -->
+  <div class="vg-footer">
+    <h1 class="text-center" id="contact">Contact Details</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="footer-info">
+            <p>Where to find me</p>
+            <hr class="divider">
+            <p class="fs-large fg-white">1600 Amphitheatre Parkway Mountain View, Houston,Texas USA</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 py-3" style="width:400px">
+          <div class="float-lg-right" style="width:220px">
+            <p>Follow me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="float-lg-right" style="float:right">
+            <p>Contact me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>jayachowdary9975@gmail.com</li>
+              <li>+1(660)386-0897</li>
+              
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+      <div class="row justify-content-center mt-3">
+        
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">Copyright &copy;2020. All right reserved </a></p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End footer -->
+  
+  
+  <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    
+  <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    
+  <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+  <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+    
+  <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    
+  <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="../assets/vendor/wow/wow.min.js"></script>
+
+  <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="../assets/js/google-maps.js"></script>
+    
+  <script src="../assets/js/topbar-virtual.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+  
+</body>
+</html>
